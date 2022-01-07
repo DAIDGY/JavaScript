@@ -1,0 +1,27 @@
+Comandos no terminal do GITBACH para inserir meus arquivos locais para o repositório remoto.
+
+Passo 1 - tras um resumo e Verificar quais os arquivos que foram inseridos recentimente.
+
+-$ git status
+
+Passo 2 - O comando 'git add ." adiciona o conteúdo do arquivo ao indice. Pertence ao sistema de controle de versões chamado de Git. Esse comando realiza a inclusão ou modificação do arquivo no diretório local.
+
+-$ git add . 
+
+Passo 3 - Mais uma vez executar o "git status" esse comando pode ser utilisado para obter um resumo de quais arquivos que possuem as alterações que  foram testadas para o próximo commit.
+
+-$ git status
+
+
+Passo 4 - Este é o primeiro passo no fluxo de trabalho básico do git. Para realmente confirmar estas mudanças (isto é, fazer um commit), use
+git commit -m "comentários das alterações"
+Agora o arquivo é enviado para o HEAD, mas ainda não para o repositório remoto.
+
+-$ git commit -m "comentários das alterações"
+
+
+Passo 5 - Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para enviar estas alterações ao seu repositório remoto, execute
+git push origin master
+Altere master para qualquer ramo (branch) desejado, enviando suas alterações para ele.
+
+-$ git push origin "master ou main"
