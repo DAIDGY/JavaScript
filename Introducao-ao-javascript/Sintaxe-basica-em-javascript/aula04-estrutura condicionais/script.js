@@ -19,7 +19,7 @@ else{
 }
 
 // usando o switch case
-switch (placar){
+/* switch (placar){
     case placar = jogador1 > jogador2:
         console.log('Jogador 1 ganhou');
         break;
@@ -29,4 +29,18 @@ switch (placar){
     default:
         console.log('Ninguém ganhou')
 }
+ */
 
+let array = ['valor1', 'valor2','valor3', 'valor4', 'valor5'];
+
+let object = {
+    propriedade1: 'valor1', propriedade2: 'valor2', propriedade3: 'valor3',
+}
+
+//for -executa uma instrução até que ela seja falsa
+/* for(let indice = 0; indice < array.length; indice++){
+    console.log(indice);
+} */
+
+//for/in executa  a repetição a partir de uma propriedade
+//com o array
