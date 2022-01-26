@@ -11,4 +11,4 @@ Crie uma função que retorna o nome dos menbros de um Map que tem o papel "ADMI
 
 #Atividade 2: Sets
 ------------------------------------------------
-Dado o array `[40, 40, 50, 10, 423, 4049, 6034, 10], retorne outro array apenas com valores únicos.
+Dado o array `[40, 40, 50, 10, 423, 4049, 6034, 10]`, retorne outro array apenas com valores únicos.
